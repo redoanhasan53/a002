@@ -89,4 +89,36 @@
   margin-right: 5px;
 }
 
+/* fresh flower container */
+.fresh-flower-container{
+    display: flex;
+    align-items: center;
+    margin: 120px 150px;
+}
+
+.fresh-flower-title{
+    font-size: 2.9rem;
+}
+
+.fresh-flower-description{
+    font-size: 22px;
+}
+
+
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    .nav-link{
+        display: none;
+    }
+
+    .fresh-flower-container{
+        flex-direction: column-reverse;
+        
+        
+        
+    }
+    
+}
+
 
