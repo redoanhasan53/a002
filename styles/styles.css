@@ -33,6 +33,7 @@
 /* gray-color */
 .color-gray{
     color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
 
 /* color-orange */
@@ -104,6 +105,68 @@
     font-size: 22px;
 }
 
+/* our plants section */
+.our-plants{
+    
+    text-align: center;
+    align-items: center;
+}
+.our-plants-title{
+    font-size: 2.27rem;
+    margin-bottom: 16px;
+}
+.our-plants-description{
+
+   align-items: center;
+   text-align: center;
+}
+
+/* add to cart */
+
+.card {
+  
+  max-width: 270px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.card h2 {
+  margin: 15px 0 5px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  text-decoration: none;
+  width: 240px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 20px;
+}
+
+
+
 
 /* responsive for mobile */
 
@@ -114,10 +177,27 @@
 
     .fresh-flower-container{
         flex-direction: column-reverse;
-        
-        
-        
-    }
+        }
+
+ .our-plants{
+    align-items: center;
+    justify-content: center;
+ }
+    .card {
+  
+  max-width: 171px;
+  text-align: center;
+  padding: 20px;
+}
+.card .btn{
+    width: 130px;
+}
+
+    .add-to-cart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 20px;
+}
     
 }
 
