@@ -40,11 +40,13 @@
 .color-orange{
     color: rgba(233, 90, 8, 1);
 }
-
 .main {
-    max-width: 1440px;
+    max-width: 1440;
     height: auto;
+    margin: auto 150px;
+    
 }
+
 
 /* Navbar container */
 .navbar {
@@ -165,14 +167,79 @@
     margin-right: 20px;
 }
 
+/* flower plants and lover section */
+
+.plants-lover-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-top: 50px;
+  gap: 60px;
+}
+
+.image-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main-image {
+  width: 100%;
+  
+}
+
+.badge {
+  position: absolute;
+  top: -127px;
+  right: -127px;
+  width: 286px;
+}
+
+.text-section {
+  max-width: 540px;
+  /* margin-left: 60px; */
+}
+
+.text-section h1 {
+    margin-left: 60px;
+    margin-top: 38px;
+    font-size: 2.9rem;
+}
+
+.text-section ul {
+  list-style-type: disc;
+ 
+}
+
+.text-section li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
 
 
 
 /* responsive for mobile */
 
 @media screen and (max-width: 576px) {
+    .body{
+        margin: auto 15px;
+        align-items: center;
+    }
+
+    .main{
+        margin: 20px 15px;
+        width: 100%;
+    }
     .nav-link{
         display: none;
+    }
+
+    .navbar{
+        padding: 15px 10px;
+        max-width: 100%;
     }
 
     .fresh-flower-container{
@@ -198,6 +265,23 @@
     grid-template-columns: repeat(2, 1fr);
     margin-right: 20px;
 }
+
+.plants-lover-container {
+    display: grid;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.badge {
+    display: none;
+}
+
+ .text-section h1 br{
+    display: none;
+ } 
+
     
 }
 
