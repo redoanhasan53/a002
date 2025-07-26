@@ -41,7 +41,7 @@
     color: rgba(233, 90, 8, 1);
 }
 .main {
-    max-width: 1440;
+    max-width: 1140px;
     height: auto;
     margin: auto 150px;
     
@@ -173,8 +173,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  margin-top: 50px;
+  margin-top: 200px;
   gap: 60px;
 }
 
@@ -217,6 +216,164 @@
   line-height: 1.6;
 }
 
+/* latest deals */
+.latest-deals{
+     text-align: center;
+    align-items: center;
+    margin-top: 133px;
+}
+
+.latest-deals-title{
+     font-size: 2.27rem;
+    margin-bottom: 16px;
+
+}
+
+.latest-deals-description{
+    align-items: center;
+   text-align: center;
+}
+
+ /* {
+      box-sizing: border-box;
+    } */
+
+    /* layout section */
+.layout-section {
+      display: flex;
+      gap: 20px;
+      
+     
+    }
+
+    .left-grid {
+      display: grid;
+      gap: 20px;
+      width: 367px;
+      height: 420px;
+    }
+
+    .left-grid .image-box,
+    .right-box {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .left-grid .image-box img {
+      width: 367px;
+      
+      object-fit: cover;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .right-box img {
+      width: 750px;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 55px;
+      left: 50px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 6px;
+    }
+    .overlay-2 {
+      position: absolute;
+      bottom: 130px;
+      left: 170px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    .overlay h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .overlay-2 h2 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .shop-now {
+      color: #fff;
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+     
+    }
+    .shop-now-2 {
+      color: #fff;
+      text-decoration: underline;
+      font-size: 30px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+     
+    }
+
+/* Subscribe Section */
+.subscribe-section {
+  background: url('../assets/images/news-letter-bg.png') center/cover no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  
+  
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.subscribe-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe-section form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.subscribe-section input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  min-width: 250px;
+}
+
+.subscribe-section button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+ 
 
 
 
@@ -280,9 +437,29 @@
 
  .text-section h1 br{
     display: none;
- } 
+ }
+ 
+ .latest-deals{
+    text-align: center;
+    align-items: center;
+ }
+   .layout-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-box {
+    max-width: 365px;
+    height: 170px;
+    border-radius: 8px;
+  }
+  .overlay-2{
+  display: none;
+  justify-content: center;
+  
+
 
     
+}
 }
 
 
